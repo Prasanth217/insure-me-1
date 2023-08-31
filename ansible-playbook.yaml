@@ -3,8 +3,8 @@
   become: true
   connection : ssh
   tasks : 
-  - name: updating apt
-    command : sudo apt-get update
+  #- name: updating apt
+   # command : sudo apt-get update
     
   - name : Install and Start Docker Service
     command : sudo systemctl start docker
